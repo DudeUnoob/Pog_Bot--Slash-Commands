@@ -1,0 +1,23 @@
+{
+  "name": "discordbot-2",
+  "version": "1.0.0",
+  "description": "A discord bot made by @DudeUnoob",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "DudeUnoob",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^16.10.0"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.2.0",
+    "fs": "0.0.1-security"
+  }
+}
