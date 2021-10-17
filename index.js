@@ -1,3 +1,11 @@
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req,res) => res.send("Pog Bot is Online!"));
+
+app.listen(port, () => console.log(`Example app listening at http://local host:${port}`));
+
 const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const { token } = require('./config.json');
